@@ -1,0 +1,399 @@
+[2025-04-16T19:14:46.299Z] Command: /opt/homebrew/bin/adb connect 10.0.0.175:5555
+Result: {"stdout":"failed to connect to '10.0.0.175:5555': No route to host\n","stderr":""}
+
+[2025-04-16T19:14:50.082Z] Command: /opt/homebrew/bin/adb connect 10.0.0.175:5555
+Result: {"stdout":"failed to connect to '10.0.0.175:5555': No route to host\n","stderr":""}
+
+[2025-04-16T19:15:46.079Z] Command: /opt/homebrew/bin/adb connect 10.0.0.175:5555
+Result: {"stdout":"failed to connect to '10.0.0.175:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:06:22.161Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:06:41.707Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:06:43.113Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:06:45.164Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:06:45.281Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:06:59.014Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:00.701Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:07:02.762Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:02.858Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:07:15.812Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:15.901Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:07:24.669Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:24.791Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:07:32.968Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:34.047Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:07:37.169Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:41.424Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:07:50.642Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:50.740Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:07:55.982Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:56.096Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:07:58.726Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:07:58.810Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:08:02.800Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:08:02.896Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:08:04.818Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:08:04.903Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:08:05.609Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:08:05.692Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:08:05.898Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:08:05.979Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:21:18.133Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:19.171Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:26.358Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:27.465Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:35.022Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:36.250Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 24
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:36.554Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:37.776Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 24
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:38.303Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:39.487Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 24
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:39.652Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:40.922Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 24
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:41.674Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:42.859Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 24
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:46.293Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:47.487Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 24
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:50.573Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:51.767Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 25
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:55.665Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:56.694Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 3
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:21:59.297Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:21:59.410Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:24:52.953Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:24:54.190Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 3
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:24:57.912Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:24:58.020Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:25:02.161Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:25:02.294Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:25:14.113Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:25:14.227Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T20:27:08.712Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T20:27:09.805Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 3
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T20:37:34.168Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:37:38.972Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:37:40.634Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:46:47.987Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:51:14.096Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:51:15.937Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:51:25.172Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T20:51:26.170Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"failed to connect to '192.168.100.120:5555': No route to host\n","stderr":""}
+
+[2025-04-16T21:08:36.744Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:08:38.815Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T21:08:40.950Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:08:43.050Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T21:08:49.972Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:08:50.097Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T21:08:50.232Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -n com.android.chrome/com.google.android.apps.chrome.Main -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }\n","stderr":"Error type 3\nError: Activity class {com.android.chrome/com.google.android.apps.chrome.Main} does not exist.\n"}
+
+[2025-04-16T21:09:03.901Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:09:05.105Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 3
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T21:09:05.317Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:09:06.388Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 3
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T21:09:11.832Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:09:11.948Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T21:09:12.027Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -n com.android.chrome/com.google.android.apps.chrome.Main -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }\n","stderr":"Error type 3\nError: Activity class {com.android.chrome/com.google.android.apps.chrome.Main} does not exist.\n"}
+
+[2025-04-16T21:10:00.907Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:10:10.636Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:10:10.714Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T21:10:10.792Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -n com.android.chrome/com.google.android.apps.chrome.Main -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 cmp=com.android.chrome/com.google.android.apps.chrome.Main }\n","stderr":"Error type 3\nError: Activity class {com.android.chrome/com.google.android.apps.chrome.Main} does not exist.\n"}
+
+[2025-04-16T21:10:29.259Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:10:34.865Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T21:10:35.657Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:10:40.385Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T21:18:58.902Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:18:59.016Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T21:19:18.086Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:19:18.197Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T21:19:25.264Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:19:25.380Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T21:19:31.449Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T21:19:31.556Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "192.168.100.1:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 }\n","stderr":"Error: Activity not started, unable to resolve Intent { act=android.intent.action.VIEW dat=192.168.100.1:3000 flg=0x10000000 }\n"}
+
+[2025-04-16T22:17:43.115Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:17:51.683Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:17:52.814Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:17:54.896Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:17:55.020Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "http://192.168.100.117:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.100.117:3000/... }\n","stderr":""}
+
+[2025-04-16T22:23:09.932Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:23:20.368Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:23:37.345Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:23:38.512Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:26:46.628Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:26:47.788Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:26:49.835Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:26:49.956Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "http://192.168.100.117:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.100.117:3000/... }\n","stderr":""}
+
+[2025-04-16T22:27:12.325Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:27:13.925Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:30:42.172Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:30:43.299Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:30:45.377Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:30:45.493Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "http://192.168.100.117:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.100.117:3000/... }\n","stderr":""}
+
+[2025-04-16T22:50:22.386Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:50:23.574Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:50:25.648Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:50:28.177Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "http://192.168.100.117:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.100.117:3000/... }\n","stderr":""}
+
+[2025-04-16T22:50:34.118Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:50:35.275Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+
+[2025-04-16T22:50:37.347Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:50:37.456Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell am start -a android.intent.action.VIEW -d "http://192.168.100.117:3000"
+Result: {"stdout":"Starting: Intent { act=android.intent.action.VIEW dat=http://192.168.100.117:3000/... }\n","stderr":""}
+
+[2025-04-16T22:53:33.696Z] Command: /opt/homebrew/bin/adb connect 192.168.100.120:5555
+Result: {"stdout":"already connected to 192.168.100.120:5555\n","stderr":""}
+
+[2025-04-16T22:53:35.407Z] Command: /opt/homebrew/bin/adb -s 192.168.100.120:5555 shell input keyevent 26
+Result: {"stdout":"","stderr":""}
+

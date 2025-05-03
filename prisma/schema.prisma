@@ -1,0 +1,59 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model MediaItem {
+  id          String         @id @default(cuid())
+  title       String
+  url         String
+  type        String         // "IMAGE" or "VIDEO"
+  duration    Int?           // in seconds, for images
+  muted       Boolean        @default(true)
+  fileSize    Int?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  playlistItems PlaylistItem[]
+}
+
+model Playlist {
+  id          String         @id @default(cuid())
+  name        String
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  items       PlaylistItem[]
+  devices     Device[]
+}
+
+model PlaylistItem {
+  id          String         @id @default(cuid())
+  order       Int
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  playlist    Playlist       @relation(fields: [playlistId], references: [id], onDelete: Cascade)
+  playlistId  String
+  media       MediaItem      @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  mediaId     String
+}
+
+model Device {
+  id               String    @id @default(cuid())
+  name             String
+  description      String?
+  ipAddress        String    @unique  // Making ipAddress unique
+  defaultUrl       String?
+  macAddress       String?
+  lastSeen         DateTime?
+  currentMediaIndex Int      @default(0)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  playlist         Playlist? @relation(fields: [playlistId], references: [id])
+  playlistId       String?
+}
