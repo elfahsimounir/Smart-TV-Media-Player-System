@@ -78,7 +78,7 @@ bash
 Copy
 Edit
 # 1. Clone the repository
-git clone https://github.com/elfahsimounir/smart-tv-media-player.git
+git clone https://github.com/elfahsimounir/Smart-TV-Media-Player-System.git
 cd smart-tv-media-player
 
 # 2. Install dependencies
