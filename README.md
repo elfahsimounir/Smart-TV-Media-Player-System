@@ -1,66 +1,107 @@
-Smart TV Media Player System
+📺 Smart TV Media Player System
+A powerful, scalable solution for managing and delivering media content to smart TVs. Ideal for businesses, educational institutions, and entertainment venues, this system enables remote device control, playlist creation, and seamless media playback—all through a user-friendly interface.
 
-#Overview
-The Smart TV Media Player System is a comprehensive solution for managing and delivering media content to smart TVs. It allows administrators to register devices, create playlists, and control media playback remotely. The system is designed to be user-friendly, scalable, and efficient, making it ideal for businesses, educational institutions, and entertainment venues.
+🚀 Overview
+The Smart TV Media Player System allows administrators to:
 
-#Features
-Device Management: Register and manage smart TVs with unique IP addresses.
-Media Management: Upload, organize, and manage media files (images and videos).
-Playlist Management: Create and customize playlists for specific devices.
-Remote Control: Control playback, volume, and other settings remotely.
-Helper App: Android-based helper app for TVs to receive commands from the admin panel.
-Wake-on-LAN: Remotely wake up TVs using their MAC addresses.
-Responsive UI: Optimized for both desktop and mobile devices.
+Register and manage smart TVs
 
-#Technologies Used
-*Frontend
-React: For building the user interface.
-Next.js: For server-side rendering and API routes.
-Tailwind CSS: For styling and responsive design.
-Radix UI: For accessible and customizable UI components.
-Lucide Icons: For modern and lightweight icons.
-*Backend 
-Prisma: For database ORM and schema management.
-SQLite: As the default database (can be replaced with other databases).
-Node.js: For server-side logic.
-Next.js API Routes: For handling server-side API requests.
-*Utilities
-ADB (Android Debug Bridge): For controlling Android-based smart TVs.
-Wake-on-LAN: For sending magic packets to wake up devices.
-Embla Carousel: For creating smooth and customizable carousels.
-*Helper App
-Kotlin: For building the Android helper app.
-Android SDK: For interacting with the TV hardware and network.
-DevOps
-ESLint: For code linting and maintaining code quality.
-Prettier: For consistent code formatting.
-Tailwind Merge: For managing Tailwind CSS class conflicts.
+Upload and organize media files
 
-#Installation
-1. Clone the repository:
+Create custom playlists
+
+Control playback remotely
+
+Wake devices via Wake-on-LAN
+
+Use an Android helper app for communication with TVs
+
+Built with scalability and ease of use in mind, this platform streamlines media distribution across multiple smart TVs.
+
+✨ Features
+📺 Device Management: Register and manage smart TVs via unique IP addresses.
+
+🎞️ Media Management: Upload, organize, and manage media files (images & videos).
+
+📝 Playlist Management: Create and assign custom playlists to specific devices.
+
+🎮 Remote Control: Manage playback, volume, and settings remotely from the dashboard.
+
+📱 Helper App: Android-based helper app that receives and executes commands on the TV.
+
+🔌 Wake-on-LAN: Wake up TVs remotely using their MAC addresses.
+
+📱 Responsive UI: Optimized for both desktop and mobile interfaces.
+
+🧰 Technologies Used
+🔹 Frontend
+React – Building reactive UIs
+
+Next.js – Server-side rendering & API routes
+
+Tailwind CSS – Styling and responsive design
+
+Radix UI – Accessible UI components
+
+Lucide Icons – Lightweight icon set
+
+🔹 Backend
+Prisma – ORM for database access
+
+SQLite – Default lightweight database (easily switchable)
+
+Node.js – Backend logic
+
+Next.js API Routes – Handle API requests
+
+🔹 Utilities
+ADB – Control Android smart TVs
+
+Wake-on-LAN – Send magic packets to wake devices
+
+Embla Carousel – Smooth, customizable carousels
+
+🔹 Helper App
+Kotlin – For building the Android TV helper app
+
+Android SDK – Hardware & network interaction
+
+🔹 DevOps
+ESLint – Enforces code quality
+
+Prettier – Auto-formats code
+
+Tailwind Merge – Prevents Tailwind class conflicts
+
+⚙️ Installation
+bash
+Copy
+Edit
+# 1. Clone the repository
 git clone https://github.com/elfahsimounir/smart-tv-media-player.git
 cd smart-tv-media-player
 
-2. Install dependencies:
+# 2. Install dependencies
 npm install
 
-3. Set up the database:
+# 3. Set up the database
 npx prisma migrate dev --name init
 
-4. Start the development server:
+# 4. Start the development server
 npm run dev
+Open your browser and navigate to http://localhost:3000 to access the app.
 
-5. Access the app at http://localhost:3000.
+📁 Folder Structure
+bash
+Copy
+Edit
+/components     → Reusable UI components
+/app            → Next.js pages and API routes
+/lib            → Utility functions and helpers
+/prisma         → Prisma schema and migrations
+/public         → Static assets (images, APK files, etc.)
+🤝 Contributing
+Contributions are welcome!
+Feel free to open an issue or submit a pull request for any feature suggestions or bug fixes.
 
-Folder Structure
-/components: Reusable UI components.
-/app: Next.js pages and API routes.
-/lib: Utility functions and helpers.
-/prisma: Database schema and migration files.
-/public: Static assets like images and APK files.
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-License
-This project is licensed under the MIT License.
-
+Copyright © 2025 Mounir Elfahsi. This project and its content are the intellectual property of the author. All rights reserved.
